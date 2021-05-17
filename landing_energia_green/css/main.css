@@ -1,0 +1,319 @@
+* {
+    font-family: 'Nunito Sans';
+}
+
+/***********************
+HEADER
+***********************/
+
+.bg-custom {
+  background: #00C873;
+}
+
+/***********************
+HEADER
+***********************/
+
+@media (min-width: 1000px) {
+
+    #header {
+      background: url('../imgs/casa.png');
+      background-size: 75%;
+      background-position: right;
+      background-position-y: 0rem;
+      background-repeat: no-repeat;
+      height: 100vh;
+  }
+
+  .h1-custom {
+    color: #00C873;
+    font-size: 3.7em;
+    font-weight: 300;
+    margin-top: 10rem;
+}
+
+#header .btn-custom {
+  color: white;
+  border: 1px solid white;
+  background: #00C873;   
+}
+    
+}
+
+@media (max-width: 1000px) {
+  #header {
+    background: url('../imgs/lampadina.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .h1-custom {
+    color: #ffffff;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 300;
+    margin-top: 8rem;
+}
+
+  #header .btn-custom {
+    color: white;
+    border: 1px solid white;
+    background: #00C873;    
+  }
+
+}
+
+/***********************
+SAVE MONEY TWO
+***********************/
+
+#savemoneyTwo {
+  margin-top: 5rem;
+}
+
+#savemoneyTwo h2 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+#savemoneyTwo p {
+  font-weight: 200;
+  font-size: 2.25rem;
+}
+
+/***********************
+THREE-BENEFIT CARDS
+***********************/
+
+#benefit-cards {
+  margin-top: 8rem;
+}
+
+/***********************
+SAVE MONEY ONE
+***********************/
+
+#savemoneyOne {
+  margin-top: 5rem;
+}
+
+#savemoneyOne h2 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+#savemoneyOne p {
+  font-weight: 200;
+  font-size: 2.25rem;
+}
+
+/***********************
+EASY - E' FACILE
+***********************/
+
+#easy {
+  margin-top: 10rem;
+}
+
+#easy h2 {
+  font-size: 2.5rem;
+  margin-bottom: 8rem;
+}
+
+/***********************
+MAXY SLIDER
+***********************/
+
+#moneySlider {
+  margin-top: 8rem;
+}
+
+
+/***********************
+MAXY SLIDER
+***********************/
+
+.maxyslider {
+    background-color: #00C873;
+    padding: 125px;
+}
+
+.maxyslider h2 {
+    color:#fff!important;
+}
+
+.maxyslider #smallSpent {
+    opacity:1;
+    font-size: 30px;
+}
+
+.maxyslider #hugeGain {
+  opacity:1;
+  font-size: 30px;
+}
+
+.maxyslider .slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;   
+  background: #d3d3d3;
+  outline: none;
+  opacity: 1;
+}
+
+.maxyslider .slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  background: #fff;
+  cursor: pointer;
+}
+
+.maxyslider .slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+}
+
+
+
+@media (min-width: 1000px) {
+  .flexContainer {
+    display: flex;
+    margin-bottom: 63px;
+    justify-content: space-around;
+}
+
+  .flexOneThird {
+    display: flex;
+    flex: 0 42%;
+    padding: 27px;
+    box-sizing: border-box;
+    color: #fff;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+@media (max-width: 1000px) {
+  .flexContainer {
+    display: block;
+    margin-bottom: 63px;
+    justify-content: space-around;
+}
+
+  .flexOneThird {
+    display: inline-block;
+    padding: 27px;
+    box-sizing: border-box;
+    color: #fff;
+    align-items: center;
+  }
+
+}
+
+.attentionated {
+  background-color: #fff;
+  color: #00C873;
+}
+
+.attentionated h2 {
+  color: #00C873!important;
+}
+
+@media (max-width: 767px) {
+    .maxyslider {
+      padding: 25px;
+      padding-top: 40px;
+    }
+    .flexContainer > div {
+      flex:0 50%!important;
+      width: 100%!important;
+      justify-content: flex-end;  
+    }
+}
+
+.slidecontainer {
+    display: flex;
+    width: 84%;
+}
+
+/***********************
+CONTACT FORM
+***********************/
+
+
+.contactForm {
+  background-color: #323b46;
+  color: #fff;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.contactForm form {
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .tp-caption {
+    font-size: 21px!important;
+    line-height: 24px!important;
+    top: -19px!important;
+  }
+}
+
+@media (min-width: 500px) {
+  .contactForm form {
+  /* padding: 125px; */
+  width: 500px;
+  }
+  .contactForm  {
+    padding: 125px;
+    }  
+}
+
+.contactForm input, .contactForm textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: none;
+  font-size: 16px;
+  color: #ffffff;
+  border-bottom: 1px solid #a0a8b1;
+  background-color: transparent;
+}
+
+#buttonInfo {
+    background: #00C873;
+    border-bottom: none;
+}
+
+.contactForm label {
+  width: 100%;
+  font-weight: 800;
+}
+.contactForm .button {
+  color: #fff;
+}
+
+
+
+
+
+
+
+iframe {
+	max-width: 100%;
+	display: flex;
+	margin: 0 auto;
+}
